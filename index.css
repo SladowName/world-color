@@ -10,6 +10,7 @@ html, body {
     flex-direction: column;
     width: 700px;
     margin: 2rem auto 0 auto;
+    padding: .25rem;
 }
 
 .title {
@@ -24,6 +25,7 @@ html, body {
     gap: 2rem;
     margin-top: 2rem;
     font-size: 2rem;
+    font-weight: bold;
 }
 
 .color {

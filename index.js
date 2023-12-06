@@ -1,5 +1,5 @@
 const colorsWords = ['синий', 'розовый', 'желтый', 'красный', 'черный', 'зеленый', 'оранжевый']
-const colors = ['blue', 'pink', 'yellow', 'red', 'black', 'green', 'orange', 'purple'];
+const colors = ['#2C52BC', '#D138A6', '#F5CB03', '#D7151F', '#2A7013', '#D77014', '#000', '#962422'];
 
 window.onload = () => {
     generateWorld();
