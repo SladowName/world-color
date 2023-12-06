@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 2rem auto 0 auto;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.colors {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.color {
+    width: calc(100% * (1/4) - 2rem);
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .colors {
+        font-size: 1.5rem;
+        gap: 1rem;
+    }
+
+    .color {
+        width: calc(100% * (1/4) - 1rem);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .colors {
+        font-size: .75rem;
+        gap: .75rem;
+    }
+
+    .color {
+        width: calc(100% * (1/4) - .75rem);
+    }
+}
